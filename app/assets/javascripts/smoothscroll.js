@@ -6,6 +6,8 @@
 // - Patrick Brunner (patrickb1991@gmail.com)
 // - Michael Herf: ssc_pulse Algorithm
 
+
+
 function ssc_init() {
     if (!document.body) return;
     var e = document.body;
