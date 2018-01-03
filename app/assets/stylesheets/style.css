@@ -22,6 +22,9 @@ URL: http://designscrazed.org/
   13. SECTION FOOTER 
 
 */
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +60,7 @@ p {
     bottom: -20px;
     width: 60px;
     height: 1px;
-    background-color: #f39c12;
+    background-color: #680FD6;
     left: 50%;
     margin-left: -30px;
 }
@@ -92,17 +95,17 @@ p {
 }
 @media(min-width:768px) {
     .navbar-default {
-        background-color: transparent;
+        background-color: #AD71F8;
     }
     .navbar-default .navbar-nav>li>a {
-        color: #B5B5B5;
+        color: #FFFFFF;
         font-family: 'Raleway', sans-serif;
     }
     .navbar-default .navbar-nav>li>a:hover {
-        color: #f39c12;
+        color: #AD71F8;
     }
     .navbar-default .navbar-nav>li>a:focus {
-        color: #B5B5B5;
+        color: #AD71F8;
     }
     .navbar-default {
         -webkit-transition: all 1s;
@@ -138,7 +141,7 @@ p {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background: transparent;
-    color: #f39c12;
+    color: #AD71F8;
 }
 .header {
     background: url(../assets/home.jpg);
@@ -194,8 +197,8 @@ p {
 .home-btn:active,
 .home-btn:visited {
     background: transparent;
-    border-color: #f39c12;
-    color: #f39c12;
+    border-color: #680FD6;
+    color: #680FD6;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -209,7 +212,7 @@ p {
     transition: all 1s;
 }
 .home-btn:hover {
-    background-color: #f39c12;
+    background-color: #680FD6;
     color: #fff;
 }
 .tuor,
@@ -233,7 +236,7 @@ tuor:visited {
 .tuor i {
     font-size: 20px;
     padding-left: 5px;
-    color: #f39c12;
+    color: #680FD6;
 }
 
 
@@ -266,7 +269,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #f39c12;
+    background: #680FD6;
     height: 1px;
 }
 .inner_about_title p {
@@ -303,7 +306,7 @@ tuor:visited {
     font-size: 15px;
 }
 .single_about_area:hover div i {
-    color: #f39c12;
+    color: #680FD6;
 }
 .about_phone img {} @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
@@ -317,7 +320,7 @@ tuor:visited {
 -----------------------------------------*/
 
 .video_area {
-    background: #e4e4e4;
+    background: #FFFFFF;
     padding-bottom: 140px;
     padding-top: 120px;
 }
@@ -338,7 +341,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #f39c12;
+    background: #680FD6;
     height: 1px;
 }
 .video_title p {
@@ -364,9 +367,9 @@ tuor:visited {
     transition: all 1s;
 }
 .btn-video:hover {
-    background: #f39c12;
+    background: #680FD6;
     color: #fff;
-    border: 1px solid #f39c12;
+    border: 1px solid #680FD6;
 }
 .video {} .video iframe {
     width: 100%;
@@ -401,7 +404,7 @@ tuor:visited {
     bottom: -8px;
 }
 div.carousel-inner .item img {
-    border: 2px solid #f39c12;
+    border: 2px solid #680FD6;
     border-radius: 50%;
     padding: 3px;
 }
@@ -415,14 +418,14 @@ div.carousel-inner .item img {
     padding-top: 50px;
 }
 .testimonial_caption h2 {
-    color: #f39c12;
+    color: #680FD6;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
     margin-top: 25px;
 }
 .testimonial_caption h4 {
-    color: #f39c12
+    color: #680FD6
 }
 .testimonial_caption h4 span {
     color: #D8D8D8;
@@ -432,14 +435,14 @@ div.carousel-inner .item img {
 .testimonial ol.carousel-indicators li {
     width: 12px;
     height: 12px;
-    border: 1px solid #f39c12;
+    border: 1px solid #680FD6;
     margin: 1PX
 }
 .testimonial ol.carousel-indicators li.active {
     width: 12px;
     height: 12px;
-    border: 0px solid #f39c12;
-    background: #f39c12;
+    border: 0px solid #680FD6;
+    background: #680FD6;
 }
 /*---------------------------------------
    SECTION FEATURES              
@@ -464,7 +467,7 @@ div.carousel-inner .item img {
 .right_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #680FD6;
     left: 0;
     width: 90px;
     height: 90px;
@@ -479,7 +482,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .right_single_feature h3 span {
-    color: #f39c12;
+    color: #680FD6;
 }
 .right_single_feature p {
     color: #333;
@@ -499,7 +502,7 @@ div.carousel-inner .item img {
 .left_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #680FD6;
     right: 0;
     width: 90px;
     height: 90px;
@@ -514,7 +517,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .left_single_feature h3 span {
-    color: #f39c12;
+    color: #680FD6;
 }
 .left_single_feature p {
     color: #333;
@@ -564,8 +567,8 @@ div.carousel-inner .item img {
 .btn-action:active,
 .btn-action:focus,
 .btn-action:visited {
-    background: #f39c12;
-    border: 1px solid #f39c12;
+    background: #680FD6;
+    border: 1px solid #680FD6;
     color: #fff;
     border-radius: 3px;
     padding: 15px 35px;
@@ -602,12 +605,12 @@ div.carousel-inner .item img {
     -moz-border-radius: 20px;
     border-radius: 20px;
     background: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #680FD6;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
-    background: #f39c12;
+    background: #680FD6;
 }
 /*---------------------------------------
    SECTION FUN FACTS              
@@ -626,7 +629,7 @@ div.carousel-inner .item img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 .single_fun_facts i {
-    color: #f39c12;
+    color: #680FD6;
     font-size: 60px;
     ;
 }
@@ -691,7 +694,7 @@ div.carousel-inner .item img {
     transition: all 1s;
 }
 .single_store i {
-    color: #f39c12;
+    color: #680FD6;
     text-align: center;
     opacity: 1;
     font-size: 40px;
@@ -768,8 +771,8 @@ div.carousel-inner .item img {
 
 }
 .contact_form .form-control:focus {
-    border: 1px solid #f39c12;
-    border-color: #f39c12;
+    border: 1px solid #680FD6;
+    border-color: #680FD6;
     outline: 0px none;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px rgba(102, 175, 233, 0.6);
 }
@@ -794,13 +797,13 @@ div.carousel-inner .item img {
 .submit-btn:focus,
 .submit-btn:visited {
     background-color: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #680FD6;
     border-radius: 4px;
     width: 100%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #f39c12;
+    color: #680FD6;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -808,9 +811,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .submit-btn:hover {
-    background-color: #f39c12;
+    background-color: #680FD6;
     color: #fff;
-    border-color: #f39c12;
+    border-color: #680FD6;
 }
 .social_icons {
     padding-top: 50px;
@@ -845,12 +848,12 @@ div.carousel-inner .item img {
     font-size: 20px;
 }
 .social_icons ul li a:hover {
-    background: #f39c12;
-    border: 1px solid #f39c12;
+    background: #680FD6;
+    border: 1px solid #680FD6;
     color: #fff
 }
 .error {
-    color: #f39c12;
+    color: #680FD6;
     display: block;
     padding-bottom: 15px;
     font-size: 18px
@@ -927,12 +930,12 @@ div.carousel-inner .item img {
 .subs-btn:visited {
     width: 200px;
     background: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #680FD6;
     border-radius: 4px;
     height: 45px;
     margin-left: 0px;
     margin-bottom: 1px;
-    color: #f39c12;
+    color: #680FD6;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 17px;
@@ -943,9 +946,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .subs-btn:hover {
-    background-color: #f39c12;
+    background-color: #680FD6;
     color: #fff;
-    border-color: #f39c12;
+    border-color: #680FD6;
 }
 @media (min-width: 300px) {
     .subscribe_form .form-control {
@@ -970,7 +973,7 @@ div.carousel-inner .item img {
     background-color: #1A1D22;
     padding-bottom: 65px;
     padding-top: 65px;
-    border-bottom: 3px solid #f39c12;
+    border-bottom: 3px solid #680FD6;
 }
 .copyright h2 {
     height: 0px;
@@ -987,7 +990,7 @@ div.carousel-inner .item img {
 }
 .copy_right_text p a {
     text-decoration: none;
-    color: #f39c12;
+    color: #680FD6;
 }
 .copy_right_text p span {
     font-weight: 300;
@@ -996,7 +999,7 @@ div.carousel-inner .item img {
     text-align: right;
 }
 .scroll_top a {
-    background: #f39c12;
+    background: #680FD6;
     padding: 25px;
 }
 .scroll_top a i {
@@ -1041,8 +1044,8 @@ select:-webkit-autofill {
     background-color: #333;
     border-radius: 100%;
     display: inline-block;
-    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
-    animation: bouncedelay 1.4s infinite ease-in-out;
+    -webkit-animation: bouncedelay 1.0s infinite ease-in-out;
+    animation: bouncedelay 1.0s infinite ease-in-out;
     /* Prevent first frame from flickering when animation starts */
     
     -webkit-animation-fill-mode: both;
